@@ -1,6 +1,7 @@
 import streamlit as st
-import pickle
+import pickle as pickle
 import numpy as np
+import sklearn
 from sklearn.model_selection import GridSearchCV
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.tree import DecisionTreeRegressor
