@@ -8,6 +8,7 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 from sklearn.linear_model import LinearRegression
 
+
 def shorten_categories(categories, cutoff):
     categorical_map = {}
     for i in range(len(categories)):
