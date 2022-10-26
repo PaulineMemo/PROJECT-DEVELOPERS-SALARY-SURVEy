@@ -2,6 +2,11 @@ from json import load
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+from sklearn.model_selection import GridSearchCV
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.metrics import mean_squared_error, mean_absolute_error
+from sklearn.linear_model import LinearRegression
 
 def shorten_categories(categories, cutoff):
     categorical_map = {}
