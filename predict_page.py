@@ -15,7 +15,7 @@ import numpy as np
         #data = pickle.load(file)
     #return data
 
-data = load_model()
+#data = load_model()
 
 regressor = data["model"]
 le_country = data["le_country"]
